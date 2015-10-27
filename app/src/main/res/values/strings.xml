@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ScheduleDemo</string>
+    <string name="login">登录</string>
+    <string name="username">用户名：</string>
+    <string name="password">密码：</string>
+    <string name="btn_login">登录</string>
+    <string name="tv_calendar">日历</string>
+    <string name="btn_select">查看日程</string>
+    <string name="tv_new_plan">新建日程</string>
+    <string name="tv_choose_date">选择的日期</string>
+    <string name="tv_bnti">标题:</string>
+    <string name="tv_nwrs">内容:</string>
+    <string name="tv_riqi">开始时间:</string>
+    <string name="tv_select_date">点击选择日期</string>
+    <string name="tv_uiih">时长/h:</string>
+    <string name="tv_xnui">小时</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="tv_plan">日程安排</string>
+</resources>
