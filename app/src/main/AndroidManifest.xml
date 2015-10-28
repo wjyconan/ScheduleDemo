@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".NewScheduleActivity" >
         </activity>
+        <activity android:name=".ScheduleDetail" >
+        </activity>
     </application>
 
 </manifest>

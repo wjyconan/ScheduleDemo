@@ -96,7 +96,7 @@ public class NewScheduleActivity extends AppCompatActivity implements View.OnCli
                 scheInfo.setHoldTime(etLong.getText().toString());
                 intent = new Intent();
                 bundle = new Bundle();
-                bundle.putSerializable("sche", scheInfo);
+                bundle.putParcelable("sche", scheInfo);
                 intent.putExtras(bundle);
                 setResult(RESULT_OK, intent);
                 finish();

@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.blqy.scheduledemo.Bean.ScheInfo;
 import com.blqy.scheduledemo.R;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -21,10 +21,10 @@ import butterknife.ButterKnife;
  */
 public class ScheListAdapter extends BaseAdapter {
 
-    private List<ScheInfo> list;
+    private ArrayList<ScheInfo> list;
     private Context context;
 
-    public ScheListAdapter(List<ScheInfo> list, Context context) {
+    public ScheListAdapter(ArrayList<ScheInfo> list, Context context) {
         this.list = list;
         this.context = context;
     }
